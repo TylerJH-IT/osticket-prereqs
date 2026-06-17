@@ -25,7 +25,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - MySQL
 - Heidi SQL
 - osTicket v1.15.8
-- Link to downloads: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+- Link to downloads:
+- PHP: https://www.php.net/releases/7_3_8.php
+- HeidiSQL: https://www.heidisql.com/installers/HeidiSQL_12.3.0.6589_Setup.exe
+- MySQL: https://downloads.mysql.com/archives/community/  
+- OsTicket: https://osticket.com/download/
+- PHP Manager: https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10
+- Rewrite AMD: https://www.iis.net/downloads/microsoft/url-rewrite
+- VC-redist.x86 https://www.microsoft.com/en-us/download/details.aspx?id=48145 (BIG MAYBE)
 
 <h2>Installation Steps</h2>
 
@@ -109,144 +116,163 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 6.) And finally open up Application Development Features and turn on CGI. Now hit okay and wait for the changes to happen, if everything is installed and enabled correctly then if you go to your browser of choice and search for 127.0.0.1 it should open up to this page.
 
 <p>
-<img src="https://i.imgur.com/BDOAyNQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/jjtgm6V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-working on this part.) Now that Internet Information Services, or IIS for short, is enabled we'll be downloading and installing everything we need from within the Google Drive. When you download the files from the google drive extract the contents into a folder.
-
-<p>
-<img src="https://i.imgur.com/G2AaKnO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-whatever.) First off you'll download and install PHP Manager for IIS and go through the install wizard.
+7.) Now that Internet Information Services, or IIS for short, is enabled we'll be downloading and installing everything we need for this. First off you'll want to download and install PHP Manager for IIS and go through the install wizard.
 
 <p>
-<img src="https://i.imgur.com/Gcbhz5B.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-whatever.) Now that we're done with that, next up we'll be installing the Rewrite Module and go through it's installation.
-
-<p>
-<img src="https://i.imgur.com/r1NBZKk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-whatever.) Now create a folder in the C drive called PHP and from the installation files extract PHP 7.3.8 and unzip it's contents into C:\PHP
-
-<p>
-<img src="https://i.imgur.com/KAMjQUy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/6xMProl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.imgur.com/CbthUQ8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <p>
-<img src="https://i.imgur.com/Ca2VBpV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<img src="https://i.imgur.com/M3E46sw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<img src="https://i.imgur.com/XrrQp6J.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-whatever.) Once you have extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe and go through the install wizard for it.
+8.) Now that we're done with that, next up we'll be installing the Rewrite Module and go through it's installation.
 
 <p>
-<img src="https://i.imgur.com/dJqUfUD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-whatever.) And finally download and install MySQL 5.5.62 and run the setup wizard. Select Typical Setup, Make sure the Launch the Configuartion Wizard is checked, then Standard Configuration.
+9.) Now create a folder in the C drive called PHP and from the installation files extract PHP 7.3.8 and unzip it's contents into C:\PHP
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+10.) Once you have extracted the zip file into the PHP folder on the C drive, download and install the VC_redist.x86.exe and go through the install wizard for it.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+11.) And finally download and install MySQL 5.5.62 and run the setup wizard.
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+12.) Select Typical Setup, Make sure the Launch the Configuartion Wizard is checked, then Standard Configuration.
   - As for the root password, just type in root. And finally click execute on it's all done.
 
 <p>
-<img src="https://i.imgur.com/AVpqb85.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/3hyNay0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/vRBe7iv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/DqMJ8Vs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<img src="https://i.imgur.com/zgk1o9w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-whatever.) Now that we have the files downloaded and installed we will want to search for IIS in the windows search bar and then open it AS AN ADMINISTRATOR.
+13.) Now that we have the files downloaded and installed we will want to search for IIS in the windows search bar and then open it AS AN ADMINISTRATOR.
 
 <p>
-<img src="https://i.imgur.com/BixG41H.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
 
-
-whatever.) Next click on PHP Manager and register new PHP version. We'll want to provide a path to the php executable file to we'll be going to C drive, Php, and click on the php-cgi file.
+14.) Next click on PHP Manager and register new PHP version. We'll want to provide a path to the php executable file to we'll be going to C drive, Php, and click on the php-cgi file.
   - Once that's done we'll restart the IIS server.
 
 <p>
-<img src="https://i.imgur.com/3Rh7fRK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/uEhnZOo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/6JK6ZKm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/pW0zfPM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-whatever.) We'll now want to install osTicket v1.15.8, extract osTicket and copy the "upload' folder to C:\inetpub\wwwroot then from within this folder rename "upload" into "osTicket" and have it spelled that exact way.
+15.) We'll now want to install osTicket v1.15.8. 
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+16.) Now extract osTicket and copy the "upload' folder to C:\inetpub\wwwroot then from within this folder rename "upload" into "osTicket" and have it spelled that exact way.
   - Then we'll restart IIS again.
 
 <p>
-<img src="https://i.imgur.com/gaOMFQp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/ftLZBFp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 <p>
-<img src="https://i.imgur.com/ORYXZQu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<p>
-<img src="https://i.imgur.com/NQTXKnJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<img src="https://i.imgur.com/PAxUTdb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<img src="https://i.imgur.com/N8fPIrA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
-whatever.) On IIS go to sites, default Web Site, osTicket, on the right, click Browse :80. This will take you to the osTicket installer page.
+17.) On IIS go to sites, default Web Site, osTicket, on the right, click Browse :80. This will take you to the osTicket installer page.
 
 <p>
 <img src="https://i.imgur.com/G5QBgyR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -261,7 +287,7 @@ whatever.) On IIS go to sites, default Web Site, osTicket, on the right, click B
 </p>
 <p>
 
-whatever.) Some extensions are not enabled on the osTicket Browser so to enable said extensions go back to IIS, sites, default, osTicket, click PHP manager then click Enable or disable an extension. We will want to enable three extensions from here. php_imap.dll, php_intl.dll, and php_opcache.dll
+working on this.) Some extensions are not enabled on the osTicket Browser so to enable said extensions go back to IIS, sites, default, osTicket, click PHP manager then click Enable or disable an extension. We will want to enable three extensions from here. php_imap.dll, php_intl.dll, and php_opcache.dll
 
 <p>
 <img src="https://i.imgur.com/ED50oaB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
