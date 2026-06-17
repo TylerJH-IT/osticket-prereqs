@@ -76,7 +76,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-4.) Next up open World Wide Web Services and enable Application Development Features, Common HTTP Features (Make sure everything within this is checked), Health and Diagnostics, Performance Features, and Security.
+4.) Next up open World Wide Web Services and enable Application Development Features, Common HTTP Features and make sure everything within this is checked.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
@@ -91,7 +91,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-whatever.) And finally open up Application Development Features and turn on CGI. Now hit okay and wait for the changes to happen, if everything is installed and enabled correctly then if you go to your browser of choice and search for 127.0.0.1 it should open up to this page.
+5.) Now check enable Health and Diagnostics, Performance Features, and Security.
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+
+6.) And finally open up Application Development Features and turn on CGI. Now hit okay and wait for the changes to happen, if everything is installed and enabled correctly then if you go to your browser of choice and search for 127.0.0.1 it should open up to this page.
 
 <p>
 <img src="https://i.imgur.com/BDOAyNQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -102,9 +117,7 @@ whatever.) And finally open up Application Development Features and turn on CGI.
 </p>
 <p>
 
-<p></p>
-
-whatever.) Now that Internet Information Services, or IIS for short, is enabled we'll be downloading and installing everything we need from within the Google Drive. When you download the files from the google drive extract the contents into a folder.
+working on this part.) Now that Internet Information Services, or IIS for short, is enabled we'll be downloading and installing everything we need from within the Google Drive. When you download the files from the google drive extract the contents into a folder.
 
 <p>
 <img src="https://i.imgur.com/G2AaKnO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
