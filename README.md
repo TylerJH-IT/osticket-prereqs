@@ -37,8 +37,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <h3> 1.) First off you'll need to set up an Azure Resource Group. </h3>
-</p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
@@ -67,7 +65,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
 
 <h3> 3.) Once your Resource group and then your VM have been created you'll need to login to the VM. <h3>
 
