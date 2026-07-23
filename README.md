@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Heidi SQL
 - osTicket v1.15.8
 - Link to downloads:
-- PHP: https://www.php.net/releases/7_3_8.php
+- PHP: https://www.php.net/downloads.php
 - HeidiSQL: https://www.heidisql.com/installers/HeidiSQL_12.3.0.6589_Setup.exe
 - MySQL: https://downloads.mysql.com/archives/community/  
 - OsTicket: https://osticket.com/download/
