@@ -32,7 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - OsTicket: https://osticket.com/download/
 - PHP Manager: https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10
 - Rewrite AMD: https://www.iis.net/downloads/microsoft/url-rewrite
-- VC-redist.x86 https://www.microsoft.com/en-us/download/details.aspx?id=48145 (BIG MAYBE)
+- VC-redist.x86 https://www.microsoft.com/en-us/download/details.aspx?id=48145 (BIG MAYBE REMOVE THIS TEXT LATER)
 
 <h2>Installation Steps</h2>
 
