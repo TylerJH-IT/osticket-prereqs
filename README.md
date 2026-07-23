@@ -26,11 +26,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Heidi SQL
 - osTicket v1.15.8
 - Link to downloads:
-- PHP Manager: https://github.com/RonaldCarter/PHPManager
+- PHP: https://www.php.net/downloads.php?os=windows
 - HeidiSQL: https://www.heidisql.com/installers/HeidiSQL_12.3.0.6589_Setup.exe
 - MySQL: https://downloads.mysql.com/archives/community/  
 - OsTicket: https://osticket.com/download/
-- PHP Manager: https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10
+- PHP Manager: https://github.com/RonaldCarter/PHPManager
 - Rewrite AMD: https://www.iis.net/downloads/microsoft/url-rewrite
 - VC-redist.x86 https://www.microsoft.com/en-us/download/details.aspx?id=48145 (BIG MAYBE REMOVE THIS TEXT LATER)
 
