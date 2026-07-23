@@ -24,7 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - VC Redist
 - MySQL
 - Heidi SQL
-- osTicket 
+- osTicket 1.15.8
 - Link to downloads:
 - PHP: https://www.php.net/downloads.php?os=windows
 - HeidiSQL: https://www.heidisql.com/installers/HeidiSQL_12.3.0.6589_Setup.exe
@@ -306,7 +306,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2> Setting up OsTicket</h2>
 
-<h3> 17.) We'll now want to install osTicket. <h3>
+<h3> 17.) We'll now want to install osTicket v1.15.8. <h3>
 
 <h3>                                  </h3>
 
