@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Heidi SQL
 - osTicket v1.15.8
 - Link to downloads:
-- PHP: https://www.php.net/releases/index.php
+- PHP: https://www.php.net/downloads.php?os=windows
 - HeidiSQL: https://www.heidisql.com/installers/HeidiSQL_12.3.0.6589_Setup.exe
 - MySQL: https://downloads.mysql.com/archives/community/  
 - OsTicket: https://osticket.com/download/
@@ -204,7 +204,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-<h3> 11.) Now create a folder in the C drive called PHP and from the installation files extract PHP 7.3.8 and unzip it's contents into C:\PHP <h3>
+<h3> 11.) Now create a folder in the C drive called PHP and from the installation files extract PHP and unzip it's contents into C:\PHP <h3>
 
 <h3>                                  </h3>
 
