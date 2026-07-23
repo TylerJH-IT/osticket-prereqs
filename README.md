@@ -392,7 +392,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-<h3> 22.) Once we have the extensions enabled in IIS we are going to want to rename one of the files in our osTicket folder. Go into the file explorer and search for C:\inetpub\wwwroot]osTicket\include\ost-sampleconfig.php <h3>
+<h3> 22.) Once we have the extensions enabled in IIS we are going to want to rename one of the files in our osTicket folder. Go into the file explorer and search for C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php <h3>
 
 <h3>                                  </h3>
 
