@@ -3,13 +3,14 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket for users on Windows.<br />
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- A computer running Windows
 
 <h2>Operating Systems Used </h2>
 
@@ -53,6 +54,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3> 2.) Next you'll need a Virtual Machine (VM). For this I'll be using Windows 10 Enterprise version 22H2 x64 Gen2. <h3>
 
+  - Clicking create will open a menu, click on Virtual Machine.
+
 <h3>                                  </h3>
 
 <p>
@@ -66,6 +69,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3> 3.) Now that your creating a Virtual Machine, you'll need to select these settings.</h3>
 
+  - You can find what Virtual Machine image you need by clicking "See all images"
+  - Next you'll want to click "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights."
+  - Once your done with that you'll want to head towards Networking so that the Virtual Network, the Subnet, and the Public IP are made
+
 <p>
 <img src="https://i.imgur.com/1FIXZJR.png" height="100%" width="100%" alt="Disk Sanitization Steps"/>
 </p>
@@ -78,6 +85,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3>                                  </h3>
 
 <h3> 4.) Once your Resource group and then your VM have been created you'll need to login to the VM. <h3>
+
+  - If your on Windows press your Windows key and R key to open up the run command, then type in mstsc so that you can open the Remote Desktop Connection
+  - Next you'll need to go back to Azure, click on your VM, then connect. Once your in the Connect page, you'll want to copy the VM IP Address.
+  - Once you have the VM IP Address, copy it into the computer space and hit connect. Make sure you use your Azure username if it's different from your computer's username.
 
 <h3>                                  </h3>
 
@@ -97,6 +108,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2> Enabling features</h2>
 
 <h3> 5.) Now that your in the VM you'll want to open control panel, go to programs, turn Windows features on or off, and then enable Internet Information Services, Web Management Tools, World Wide Web Services. <h3>
+
+  - Press the Windows key and the R key inside the VM to open run, then type in control panel so you can access it. 
 
 <h3>                                  </h3>
 
@@ -242,7 +255,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 
 <h3> 15.) You'll need to select Standard Configuration. <h3>
-<h3> - As for the root password, just type in root. And finally click execute on it's all done. <h3>
+<h3> - As for the root password, just type in root as this is just for testing. And finally click execute on it's all done. <h3>
 
 <h3>                                  </h3>
 
@@ -347,6 +360,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3> 22.) Then click Enable or disable an extension. We will want to enable three extensions from here. php_imap.dll, php_intl.dll, and php_opcache.dll <h3>
 
+  - It'll be easier and quicker for you to find the extensions by typing them into the filter. Once you have found them, rightclick on them then leftclick enable.
+
 <h3>                                  </h3>
 
 <p>
@@ -358,7 +373,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-<h3> 23.) Once we have the extensions enabled in IIS we are going to want to rename one of the files in our osTicket folder. Go into the file explorer and search for C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php Once we have found the file we are going to rename ost-sampleconfig.php to ost-config.php<h3>
+<h3> 23.) Once we have the extensions enabled in IIS we are going to want to rename one of the files in our osTicket folder. <h3>
+
+  - Go into the file explorer and search for C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+  - Once we have found the file we are going to rightclick on it, then leftclick rename and change ost-sampleconfig.php to ost-config.php
 
 <h3>                                  </h3>
 
