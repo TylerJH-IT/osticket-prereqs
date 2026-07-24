@@ -152,6 +152,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3> 9.) Now that Internet Information Services, or IIS for short, is enabled we'll be downloading and installing everything we need for this. First off you'll want to download and install PHP Manager for IIS and go through the install wizard. <h3>
 
+  - You'll find the installer in PHPManager-Master > bin > release
+
 <h3>                                  </h3>
 
 <p>
@@ -225,6 +227,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3> 14.) And finally download and install MySQL 5.5.62 and run the setup wizard. <h3>
 
+  - You'll need to select the dropdown menu and scroll down to 5.5.62
   - Make sure to Select Typical Setup
 
 <h3>                                  </h3>
@@ -389,9 +392,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h3> 26.) Now we will add new permissions. <h3>
 <h3>    - click add <h3>
 <h3>    - select a principal <h3>
-<h3>    - type "Everyone" in the box <h3>
+<h3>    - type "Everyone" in the box then click Check Names <h3>
 <h3>    - Make sure full control and all the other boxes are check <h3>
-<h3>    - click ok. <h3>
+<h3>    - click ok <h3>
 
 <h3>                                  </h3>
 
